@@ -1,44 +1,38 @@
 body {
-  background-color: #fff8dc; /* Color crema */
-  background-image: radial-gradient(white 2px, transparent 2px); /* Crea un patrón de puntos blancos */
-  background-size: 20px 20px; /* Tamaño del patrón */
-  font-family: Arial /* Cambia la fuente a Arial si está disponible, de lo contrario, usa una fuente genérica sans-serif */
+  background-color: #fff8dc;
+  background-image: radial-gradient(white 2px, transparent 2px);
+  background-size: 20px 20px;
+  font-family: Arial;
 }
 
-/* Estilo para el área de navegación */
 nav {
-  background-color: #333; /* Color de fondo */
-  padding: 20px; /* Espaciado interno */
-  text-align: center; /* Alineación del texto */
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
 }
 
-/* Estilo para la lista de navegación */
 nav ul {
-  list-style-type: none; /* Elimina los estilos de viñetas */
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-/* Estilo para los elementos de la lista */
 nav ul li {
-  display: inline-block; /* Muestra los elementos de la lista en línea */
-  margin-right: 20px; /* Espaciado entre elementos */
+  display: inline-block;
+  margin-right: 20px;
 }
 
-/* Estilo para los enlaces */
 nav ul li a {
-  color: #fff; /* Color del texto */
-  text-decoration: none; /* Elimina subrayado */
-  font-size: 18px; /* Tamaño de fuente */
-  padding: 10px 15px; /* Espaciado interno */
-  border-radius: 5px; /* Borde redondeado */
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
-/* Estilo al pasar el ratón sobre los enlaces */
 nav ul li a:hover {
-  background-color: #555; /* Cambio de color al pasar el ratón */
+  background-color: #555;
 }
-
 
 h1 {
     color: green;
@@ -71,20 +65,19 @@ li {
 
 .info-contacto div {
     font-size: 1.8em;
-    margin-right: 20px; /* Agrega espacio entre los elementos */
+    margin-right: 20px;
     color: #008000;
 }
 
 h3{
   font-size: 2.0em;   
-   margin-bottom: 0; /* Eliminar margen inferior */
+   margin-bottom: 0;
 }
 
 h2{
   font-size: 3.0em;   
-   margin-bottom: 0; /* Eliminar margen inferior */
+   margin-bottom: 0;
 }
-
 
 .logo {
   background-color: white; 
